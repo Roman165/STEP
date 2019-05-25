@@ -559,6 +559,7 @@ body {
 	&__starts {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: center;
 		margin: 0;
 		padding: 0;
 		
@@ -758,7 +759,7 @@ body {
 	&__five-conteiner {
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: flex-end;
+		justify-content: center;
 		min-height: 700px;
 		position: relative;
 	}
@@ -1179,6 +1180,15 @@ body {
 		line-height: 1.5;
 		display: inline-block;
 		width: 60%;
+		@media screen and (max-width: 800px) {
+		font-size: 16px;
+		width: 90%;
+		
+		}
+		@media screen and (max-device-width:500px) {
+		width: 90%;
+		
+		}
 	}
 }
 .section__ten {
