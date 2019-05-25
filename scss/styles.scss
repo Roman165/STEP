@@ -133,6 +133,10 @@ body {
     	height: 80vh;
      
  }
+ @media screen and (max-device-width:700px){
+    	height: 110vh;
+     
+ }
 	}
 	&--cover-slide {
 		height: 90vh;
@@ -140,7 +144,9 @@ body {
 		background-size: cover;
 		@media screen and (max-device-width:500px){
     	height: 50vh;
-     
+ 	}
+ 		@media screen and (max-device-width:700px){
+    	height: 75vh;
  	}
 	}
 	&__cont {
@@ -298,7 +304,7 @@ body {
 			transform: scale(1.1);
 			transition: all .4s ease-in-out;
 		}
-		@media screen and (max-width: 480px) and (max-device-width:500px) {
+		@media screen and (max-width: 480px) and (max-device-width:700px) {
 		display: none;
 		}
 	}
@@ -1198,7 +1204,7 @@ body {
 	height: 50vh;
 	background-repeat: no-repeat;
 	width: 100%;
-	@media screen and (max-device-width:500px){
+	@media screen and (max-device-width:700px){
     	height: 25vh;
      
  }
@@ -1266,6 +1272,10 @@ body {
 	height: 35vh;
 	@media screen and (max-device-width:500px){
     	height: 21vh;
+     
+ }
+ @media screen and (max-device-width:700px){
+    	height: 32vh;
      
  }
 	&__tell {
