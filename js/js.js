@@ -5,6 +5,7 @@ $('.slider-2').slick({
   centerPadding: '-20px',
   slidesToShow: 3,
   dots: true,
+  autoplay: true,
   arrows: false,
   responsive: [
     {
